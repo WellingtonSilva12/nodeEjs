@@ -13,7 +13,16 @@
           Nihil laboriosam natus magnam repudiandae asperiores ipsum repellat
           quaerat aliquam reprehenderit.
         </p>
+        <p><%= subtitle %></p>
       </div>
+      <ul>
+        <% qualitys.forEach(function(quality){%>
+        <li>
+          <strong><%=quality.title%></strong>
+          <%=quality.message%>
+        </li>
+        <%}); %>
+      </ul>
     </main>
     <%- include ("footer"); %>
   </body>
