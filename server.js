@@ -13,4 +13,4 @@ app.get('/sobre', function (req, res) {
 })
 
 app.listen(8080)
-console.log('Carregando...')
+console.log('Servidor Ligado!')
